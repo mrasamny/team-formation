@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #FFFFFF;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table, tr, td, th {
+  border: 1px solid black;
+}
+
+th, td {
+  padding: 5px 15px 5px 15px;
+}
+th.schedule-header {
+  background-color: rgb(0,150,255);
+  color:rgb(240, 245, 230);
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.fancyBorder {
+  border: 3px solid red;
+  border-radius: 10px;
+}
