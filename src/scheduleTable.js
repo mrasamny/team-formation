@@ -80,4 +80,5 @@ var schema = {
   timeSlots: ['8am - 9am','9am - 10am','10am - 11am','11am - 12pm']
 };
 
-ReactDOM.render(<ScheduleTable schema={schema}/>,document.getElementById('root'));
+ReactDOM.render(<ScheduleTable schema={schema}/>,
+  document.getElementById('root'));
